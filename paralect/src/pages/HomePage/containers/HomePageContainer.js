@@ -24,7 +24,7 @@ const HomePageContainer = () => {
     dispatch(USERS_REQUEST());
     let response = await fetch(`https://api.github.com/users/${inputValue}`, {
       headers: {
-        Authorization: "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",
+        Authorization: "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",
       },
     });
     if (response.ok) {
@@ -43,7 +43,7 @@ const HomePageContainer = () => {
           `https://api.github.com/users/${user.login}/repos?per_page=${itemsPerPage}&&page=${page}`,
           {
             headers: {
-              Authorization: "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",
+              Authorization: "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",
             },
           }
         );
