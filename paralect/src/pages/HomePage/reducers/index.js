@@ -18,6 +18,7 @@ const userManagerReducer = handleActions(
     [actions.USERS_REQUEST]: (state) => {
       return {
         ...state,
+        page: 1,
         loading: true,
       };
     },
