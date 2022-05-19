@@ -1,0 +1,8 @@
+.userNotFound {
+  max-width: 156px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}

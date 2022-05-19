@@ -1,0 +1,81 @@
+.person__avatar {
+  width: 280px;
+  height: 280px;
+  margin: 0;
+}
+
+@media (min-width: 320px) {
+  .person__avatar {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .person__avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .person {
+    text-align: center;
+  }
+}
+
+.person__avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.person__name {
+  margin-top: 38px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  text-transform: capitalize;
+}
+
+.person__link {
+  text-decoration: none;
+}
+
+.person__login {
+  margin-top: 12px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0064eb;
+  text-transform: lowercase;
+}
+
+.person__group {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .person__group {
+    justify-content: center;
+  }
+}
+
+.group__description {
+  margin-left: 9px;
+}
+
+.group__following {
+  margin-left: 17px;
+  display: flex;
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.group__followers {
+  display: flex;
+  font-family: "Inter";
+  font-size: 16px;
+}
